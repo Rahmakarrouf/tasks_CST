@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Lab 2</title>
+</head>
+<body>
+    <h2>First Table</h2>
+    <table id="table1" border="1">
+        <tr><td>Item A</td><td>Item B</td></tr>
+        <tr><td>Item C</td><td>Item D</td></tr>
+    </table>
+
+    <h2>Second Table</h2>
+    <table id="table2" border="1">
+        <tr>
+            <td><a href="https://example.com">More Info</a></td>
+            <td>Learn more</td>
+        </tr>
+        <tr><td>Detail 1</td><td>Detail 2</td></tr>
+    </table>
+
+    <h2>Images</h2>
+    <img src="1.png" />
+    <img src="2.png" />
+    <img src="3.png" />
+
+    <h2>User Data Form</h2>
+    <form id="userData">
+        <label><input type="checkbox" name="opt1" value="Yes" /> Yes</label><br />
+        <label><input type="checkbox" name="opt2" value="No" checked /> No</label><br />
+        <label><input type="checkbox" name="opt3" value="Maybe" checked /> Maybe</label><br />
+        <label><input type="checkbox" name="opt4" value="Later" /> Later</label><br />
+        <button type="button" onclick="alertCheckedCheckboxes()">Show Selected</button>
+    </form>
+
+    <div id="example" style="width: 200px; height: 100px; border: 1px solid black; margin-top: 20px;">
+        Waiting for your input.
+    </div>
+
+    <script src="lab2.js"></script>
+</body>
+</html>
